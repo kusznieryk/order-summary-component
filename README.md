@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/kusznieryk/order-summary-component](https://github.com/kusznieryk/order-summary-component)
-- Live Site URL: [https://kusznieryk.github.io/google-calendar-clone/order-summary-component](https://kusznieryk.github.io/google-calendar-clone/order-summary-component)
+- Live Site URL: [https://kusznieryk.github.io/order-summary-component](https://kusznieryk.github.io/order-summary-component)
 
 ## Author
 
