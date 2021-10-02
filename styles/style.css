@@ -1,0 +1,126 @@
+@import "./vars.css";
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  font-family: var(--main-font);
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  height: 77vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  width: 320px;
+  margin: auto;
+  margin-top: 10vh;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-bottom: 3vh;
+}
+
+.illustration {
+  width: 100%;
+}
+
+h2 {
+  color: var(--dark-blue);
+  font-size: 1.5rem;
+}
+.info-plan {
+  color: var(--desaturated-blue);
+  font-weight: 500;
+  width: 270px;
+  text-align: center;
+}
+.info-price {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--very-pale-blue);
+  padding: 4%;
+  border-radius: 10px;
+}
+.info-price .change {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--main-bright-blue);
+}
+.info-price .plan {
+  transform: translateX(-15px);
+  font-weight: 500;
+}
+.info-price .plan .price {
+  color: var(--desaturated-blue);
+}
+
+.info-price .plan .plan-name {
+  color: var(--dark-blue);
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.primary {
+  width: 280px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: var(--main-bright-blue);
+}
+.primary {
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.9rem;
+  box-shadow: var(--very-pale-blue) 0px 9px 9px 1px;
+}
+.primary:hover,
+.primary:focus {
+  transform: scale(105%);
+}
+.primary:active {
+  transform: scale(96%);
+  background-color: var(--desaturated-blue);
+}
+
+button.cancel {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  color: var(--desaturated-blue);
+  font-weight: 900;
+  font-size: 1rem;
+}
+button.cancel:hover,
+button.cancel:focus {
+  transform: translateY(-2px);
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+.attribution {
+  margin-top: 5vh;
+  font-family: (--main-font);
+  font-weight: 500;
+  color: var(--dark-blue);
+}
+
+@media (min-width: 700px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+}

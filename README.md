@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot of the challenge completed](https://i.imgur.com/4TmMaGF.png)
 
 ### Links
 
