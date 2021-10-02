@@ -1,0 +1,7 @@
+.primary {
+  transition: transform 100ms ease-in;
+}
+
+.cancel {
+  transition: transform 50ms ease-in;
+}

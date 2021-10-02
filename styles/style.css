@@ -1,4 +1,5 @@
 @import "./vars.css";
+@import "./transitions.css";
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 * {
